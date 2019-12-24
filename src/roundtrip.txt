@@ -1,0 +1,32 @@
+Should take the Payload object, and see if the insurance info in the payload matches with an insurance record in the master list.
+
+What's the schema of the "master list"?
+
+By finding a match, do you mean matching a specific person's insurance record from one source with another?
+
+Even though object structures can be different among sources, is there at least one key value pair that will always be present, such as policy number?
+
+Typos, different plan names, 
+
+
+Set of carrier
+Set of clients
+
+Plan references the carrier
+
+Company name
+Plan name
+
+Carrier name
+Plan name
+
+
+Carrier table
+Id, name, r
+
+Carrier plan
+Name, auth, contact, category, vehicle types
+
+RT has to know if ins covers it.
+
+Justin@roundtriphealth.com
